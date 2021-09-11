@@ -1,0 +1,67 @@
+/*TRABAJANDO EN LA PARTE DEL HEADER*/
+body{
+    background-image: url("/Ascets/comida.jpg");
+}
+
+.grid-header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: minmax(150px,auto);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;    
+    
+}
+.grid-header div{
+    padding: 10px;
+}
+
+.logo{
+    text-align: center;
+    place-content:center;
+    margin: 10px;
+    
+    /*background-color: transparent;*/
+
+}     
+
+.grid-header div img{
+    width: 50%;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    gap: 5px;
+    background-color:blue;
+    margin: 50px;
+    
+}
+
+.menu div{
+    background-color:white;
+    width: 80%;
+}
+
+.menu div:hover{
+    background-color: cyan;
+}
+
+.menu div a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    
+}
+
+
+
+
+/*FIN HEADER*/
+
+
+
+
+
+
