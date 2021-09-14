@@ -109,22 +109,21 @@ body{
 
 .text-info{
     background-color: gray;
+    border-radius: 2%;
     margin: 5px 0px 5px 5px;
-    padding: 10px;
     text-align: center;
     padding: 40px;    
     
 }
 
 .img-info{
-    background-color: gray;
     margin: 5px 0px 5px 5px;
     padding-right: 2px;
     text-align: center;
 }
 
 .grid-information div h2{
-
+    border-radius: 5%;
     color: white;
     font-size: 40px;
 
@@ -143,15 +142,18 @@ body{
     
 }
 
-/*FIN INFORMACION 2*/
+/*FIN INFORMACION */
 
+/*INFORMACIÓN 2*/
 .grid-informationDos{
     
     background-color: gainsboro;
     margin: 10px;
+    
 }
 
 .grid-informationDos div{
+    
     padding: 15px;
     font-size: 20px;
     text-align: center;
@@ -162,7 +164,8 @@ body{
     display: grid;
     grid-template-columns: 10% 25% 30% 25% 10%;    
     background-color: white;
-    grid-template-rows: minmax(20px,300px);
+    grid-template-rows: minmax(500px,500px);
+    
     
 }
 
@@ -173,8 +176,40 @@ body{
     background-color: cornflowerblue;
 }
 
+/* FIN INFORMACIÓN 2*/
 
 /*INFORMACIÓN*/
+
+/*PUBLISH*/
+
+.information{
+    display: grid;
+    grid-template-rows: 50% 50% ;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 5%;
+      
+}
+
+.Text-publish{
+    font-size: 50px;
+    padding-top: 30px;
+    
+}
+
+
+.icons{
+    text-align: center;
+    display: flex;
+    
+}
+
+.icons li{
+    /*Para quitar los puntos*/
+    list-style: none;
+    padding-left: 45px;
+    text-align: center;
+}
+/*FIN PUBLISH*/
 
 
 
