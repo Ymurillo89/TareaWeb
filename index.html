@@ -5,29 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Instand Delinghs</title>
+    <link rel="stylesheet" href="aboutStyle.css">
+    <link rel="stylesheet" href="plugins/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+    
+    <title>Merca prado</title>
 </head>
 
 <body>
     <header class="grid-header">
 
         <div class="logo">
-            <img src="Ascets/Logo_Circular.png" alt="">
+            <img src="/Ascets/Mercado.png" alt="" class="img-logo">
         </div>
 
         <div class="menu">
             <div>
-                <a href="#">About</a>
+                <a href="#">Inicio</a>
             </div>
             <div>
-                <a href="#">About</a>
+                <a href="#">Contacto</a>
             </div>
             <div>
-                <a href="#">About</a>
+                <a href="#">Categorías</a>
             </div>
             <div>
-                <a href="#">About</a>
+                <a href="#">Formulario</a>
             </div>
         </div>
 
@@ -41,52 +43,180 @@
     </div>
 
     <div class="fondo">
-        <div class="grid-information">
+        <section class="grid-information">
 
             <div class="text-info">
-                <h2>Excelente comida</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nihil animi explicabo ipsam commodi
-                    eaque quasi consequuntur dolorum consequatur provident unde placeat asperiores optio ipsa ducimus,
-                    reiciendis, nostrum dolores earum!</p>
+                <h2>Servicio, calidad y precio</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nihil animi explicabo ipsam commodieaque quasi consequuntur dolorum consequatur provident unde placeat asperiores optio ipsa ducimus,reiciendis, nostrum dolores earum!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nihil animi explicabo
+                </p>
             </div>
 
             <div class="img-info">
-                <img src="/Ascets/hamburger.jpg" alt="comida">
+                <img src="/Ascets/Mercado2.jpeg" alt="comida">
             </div>
 
+        </section>
+
+         <!--Trabajando en categorias-->
+ <div class="container-categorias">
+   
+    <h2 class="titulo-categorias">Categorías</h2>
+
+    <div class="cuadros-categorias">
+
+        <div class="cuadro-categoria">
+            <img src="Ascets/aseo.jpg" alt="" class="img-cuadro">
+            <h3 class="tipo-cuadro-categoria">Aseo</h3>
         </div>
 
-        <div class="grid-informationDos">
+        <div class="cuadro-categoria">
+            <img src="Ascets/aseo.jpg" alt="" class="img-cuadro">
+            <h3 class="tipo-cuadro-categoria">Frutas</h3>
+        </div>
+
+        <div class="cuadro-categoria">
+            <img src="Ascets/aseo.jpg" alt="" class="img-cuadro">
+            <h3 class="tipo-cuadro-categoria">Mecato</h3>
+        
+        </div>
+
+        <div class="cuadro-categoria">
+            <img src="Ascets/aseo.jpg" alt="" class="img-cuadro">
+            <h3 class="tipo-cuadro-categoria">Alimento</h3>
+            
+        </div>
+        
+        <div class="cuadro-categoria">
+            <img src="Ascets/aseo.jpg" alt="" class="img-cuadro">
+            <h3 class="tipo-cuadro-categoria">Carnes</h3>
+        </div>
+        
+        <div class="cuadro-categoria">
+            <img src="Ascets/aseo.jpg" alt="" class="img-cuadro">
+            <h3 class="tipo-cuadro-categoria">Despensa</h3>
+        </div>
+
+    </div>
+
+</div>
+
+    <section class="grid-informationDos">
             <div>
                 <p>Muchos de nuestros clientes estan satisfechos</p>
                 <h2>Trabajamos para ti</h2>
-                <p>Traemos para ti los últimos productos en tendencia, para que dispongas de un amplio catálogo que
-                    brinde soluciones a tus necesidades en el mundo moderno.</p>
+                <p>Tenemos para ti todo tipo de productos, para que dispongas de un amplio catálogo.</p>
             </div>
-        </div>
+        </section>
 
-        <div class="grid-publish">
-            <div class="dark"></div>
-            <div class="sure"></div>
-            <div class="information">
-                <ul>
+        <section class="grid-publish">
+                <div class="dark"></div>
+                <div class="sure"></div>
+                
+                <div class="information">
+                
                     <div class="Text-publish">
                         <span><ion-icon name="caret-down-outline"></ion-icon></span>
-                        <h2>Síguenos</h2>
+                        <h2>Realiza tú pedido</h2>
                     </div>
 
-                    <div class="icons">
-                    <li>face</li>
-                    <li>face</li>
-                    <li>face</li>
+                    <div class="container-formulario">
+     
+                        <form action="">
+                            <div class="campos-formulario"> 
+                                <!--Nombre-->
+                                <label for="nombre">Nombre</label>
+                                <input type="text" name="nombre"    class="txtCampo"> 
+                                
+                                <!--Apellido-->
+                                <label for="apellido">Apellido</label>
+                                <input type="text" name="apellido"  class="txtCampo">
+                                
+                                <!--Celular-->
+                                <label for="Celular">Celular</label>
+                                <input type="text" name="Celular" class="txtCampo">
+
+                                <!--Direccion-->
+                                <label for="Dirección">Dirección</label>
+                                <input type="text" name="Dirección"  class="txtCampo">
+                            
+                            </div>
+                            
+                            <div class="campo-sugerencia">
+
+                                <label for="subject"                class="input-sugetencia">Pedido</label>
+                                <textarea name="subject" placeholder="Pedido"               class="txtArea"></textarea>
+                            
+                                <!--Boton-->
+                                <input type="Submit" value="Enviar" id="btnCrear"               class="btnEnviar" >
+                            </div>
+                       </form>
                     </div>
+                        
+                </div>
+                
+                    <div class="sure"></div>
+                    <div class="dark"></div>
+                    
+        </section>
+
+
+        <footer class="grid-footer">
+            
+            <div>
+                <h3>Domicilios</h3>
+                <ul>
+                    <li>6044639940</li>
+                    
+                    
                 </ul>
             </div>
-            <div class="sure"></div>
-            <div class="dark"></div>
-        </div>
+
+            <div>
+                <h3>Categorias</h3>
+                <ul>
+                    <li>Aseo</li>
+                    <li>Frutas</li>
+                    <li>Mecato</li>
+                    <li>Alimento</li>
+                    <li>Carnes</li>
+                </ul>
+
+            </div>
+
+            <div >
+                <h3>Contactanos</h3>
+                <span><a href="mailto:Mercaprado@une.net.co?subject=opinion"><i
+                    class="fas fa-envelope"></i>Mercaprado@une.net.co</a> </span>
+                    <br>
+
+                <span></i>Dirección  cra 80# 39 sur 46 </span>
+
+
+            </div>
+
+            <div class="logo">
+                <img src="Ascets/Mercado.png" alt="Metodos de pago" class="img-logo">
+            </div>
+
+        </footer>
+
+        <section class="grid-copy">
+            <div>
+                <h4>Copyright@2021MercaPrado</h4>
+            </div>
+
+            <div>
+                <h4>Merca Prado</h4>
+            </div>
+
+        </section>        
+
     </div>
 
+
 </body>
+
+<!--Felipe Murillo-->
+<!--Franco Calle-->
 
 </html>
