@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="aboutStyle.css">
     <link rel="stylesheet" href="plugins/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
-    
+
     <title>Merca prado</title>
 </head>
 
@@ -20,16 +20,16 @@
 
         <div class="menu">
             <div>
-                <a href="#">Inicio</a>
+                <a href="#inicio">Inicio</a>
             </div>
             <div>
-                <a href="#">Contacto</a>
+                <a href="#contacto">Contacto</a>
             </div>
             <div>
-                <a href="#">Categorías</a>
+                <a href="#categorias">Categorías</a>
             </div>
             <div>
-                <a href="#">Formulario</a>
+                <a href="#pedido">Pedido</a>
             </div>
         </div>
 
@@ -37,7 +37,7 @@
 
     <div class="mensaje-container">
         <div>
-            <h1>Conocenos áun más </h1>
+            <h1 id="inicio">Conocenos áun más </h1>
         </div>
 
     </div>
@@ -47,7 +47,10 @@
 
             <div class="text-info">
                 <h2>Servicio, calidad y precio</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nihil animi explicabo ipsam commodieaque quasi consequuntur dolorum consequatur provident unde placeat asperiores optio ipsa ducimus,reiciendis, nostrum dolores earum!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nihil animi explicabo
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nihil animi explicabo ipsam
+                    commodieaque quasi consequuntur dolorum consequatur provident unde placeat asperiores optio ipsa
+                    ducimus,reiciendis, nostrum dolores earum!Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Aperiam nihil animi explicabo
                 </p>
             </div>
 
@@ -57,50 +60,51 @@
 
         </section>
 
-         <!--Trabajando en categorias-->
- <div class="container-categorias">
-   
-    <h2 class="titulo-categorias">Categorías</h2>
+        <!--Trabajando en categorias-->
+        <div class="container-categorias">
 
-    <div class="cuadros-categorias">
+            <h2 class="titulo-categorias" id="categorias">Categorías</h2>
 
-        <div class="cuadro-categoria">
-            <img src="Ascets/aseo.jpg" alt="" class="img-cuadro">
-            <h3 class="tipo-cuadro-categoria">Aseo</h3>
+            <div class="cuadros-categorias">
+
+                <div class="cuadro-categoria">
+                    <img src="Ascets/aseo.jpg" alt="" class="img-cuadro">
+                    <h3 class="tipo-cuadro-categoria">Aseo</h3>
+                </div>
+
+                <div class="cuadro-categoria">
+                    <img src="Ascets/frutas.jpg" alt="" class="img-cuadro">
+                    <h3 class="tipo-cuadro-categoria">Frutas</h3>
+                </div>
+
+                <div class="cuadro-categoria">
+                    <img src="Ascets/Mecato.jpg
+                    " alt="" class="img-cuadro">
+                    <h3 class="tipo-cuadro-categoria">Mecato</h3>
+
+                </div>
+
+                <div class="cuadro-categoria">
+                    <img src="Ascets/Alimento.jpg" alt="" class="img-cuadro">
+                    <h3 class="tipo-cuadro-categoria">Alimento</h3>
+
+                </div>
+
+                <div class="cuadro-categoria">
+                    <img src="Ascets/Carnes.jpg" alt="" class="img-cuadro">
+                    <h3 class="tipo-cuadro-categoria">Carnes</h3>
+                </div>
+
+                <div class="cuadro-categoria">
+                    <img src="Ascets/Despensa.jpg" alt="" class="img-cuadro">
+                    <h3 class="tipo-cuadro-categoria">Despensa</h3>
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="cuadro-categoria">
-            <img src="Ascets/aseo.jpg" alt="" class="img-cuadro">
-            <h3 class="tipo-cuadro-categoria">Frutas</h3>
-        </div>
-
-        <div class="cuadro-categoria">
-            <img src="Ascets/aseo.jpg" alt="" class="img-cuadro">
-            <h3 class="tipo-cuadro-categoria">Mecato</h3>
-        
-        </div>
-
-        <div class="cuadro-categoria">
-            <img src="Ascets/aseo.jpg" alt="" class="img-cuadro">
-            <h3 class="tipo-cuadro-categoria">Alimento</h3>
-            
-        </div>
-        
-        <div class="cuadro-categoria">
-            <img src="Ascets/aseo.jpg" alt="" class="img-cuadro">
-            <h3 class="tipo-cuadro-categoria">Carnes</h3>
-        </div>
-        
-        <div class="cuadro-categoria">
-            <img src="Ascets/aseo.jpg" alt="" class="img-cuadro">
-            <h3 class="tipo-cuadro-categoria">Despensa</h3>
-        </div>
-
-    </div>
-
-</div>
-
-    <section class="grid-informationDos">
+        <section class="grid-informationDos">
             <div>
                 <p>Muchos de nuestros clientes estan satisfechos</p>
                 <h2>Trabajamos para ti</h2>
@@ -109,87 +113,108 @@
         </section>
 
         <section class="grid-publish">
-                <div class="dark"></div>
-                <div class="sure"></div>
-                
-                <div class="information">
-                
-                    <div class="Text-publish">
-                        <span><ion-icon name="caret-down-outline"></ion-icon></span>
-                        <h2>Realiza tú pedido</h2>
-                    </div>
+            <div class="dark"></div>
+            <div class="sure"></div>
 
-                    <div class="container-formulario">
-     
-                        <form action="">
-                            <div class="campos-formulario"> 
-                                <!--Nombre-->
-                                <label for="nombre">Nombre</label>
-                                <input type="text" name="nombre"    class="txtCampo"> 
-                                
-                                <!--Apellido-->
-                                <label for="apellido">Apellido</label>
-                                <input type="text" name="apellido"  class="txtCampo">
-                                
-                                <!--Celular-->
-                                <label for="Celular">Celular</label>
-                                <input type="text" name="Celular" class="txtCampo">
+            <div class="information">
 
-                                <!--Direccion-->
-                                <label for="Dirección">Dirección</label>
-                                <input type="text" name="Dirección"  class="txtCampo">
-                            
-                            </div>
-                            
-                            <div class="campo-sugerencia">
-
-                                <label for="subject"                class="input-sugetencia">Pedido</label>
-                                <textarea name="subject" placeholder="Pedido"               class="txtArea"></textarea>
-                            
-                                <!--Boton-->
-                                <input type="Submit" value="Enviar" id="btnCrear"               class="btnEnviar" >
-                            </div>
-                       </form>
-                    </div>
-                        
+                <div class="Text-publish">
+                    <span>
+                        <ion-icon name="caret-down-outline"></ion-icon>
+                    </span>
+                    <h2 id="pedido">Realiza tú pedido</h2>
                 </div>
-                
-                    <div class="sure"></div>
-                    <div class="dark"></div>
-                    
+
+                <div class="container-formulario">
+
+                    <form action="enviar.php" method="post">
+                        <div class="campos-formulario">
+                            <!--Nombre-->
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" class="txtCampo" id="1">
+
+                            <!--Apellido-->
+                            <label for="apellido">Apellido</label>
+                            <input type="text" name="apellido" class="txtCampo" id="2">
+
+                            <!--Celular-->
+                            <label for="Celular">Celular</label>
+                            <input type="text" name="Celular" class="txtCampo" id="3">
+
+                            <!--Direccion-->
+                            <label for="Dirección">Dirección</label>
+                            <input type="text" name="Dirección" class="txtCampo" id="4">
+
+                        </div>
+
+                        <div class="campo-sugerencia">
+
+                            <label for="subject" class="input-sugetencia">Pedido</label>
+                            <textarea name="pedido" placeholder="Pedido" class="txtArea" id="5"></textarea>
+
+                            <label for="" id="MensajeFinal"></label>
+                            <!--Boton-->
+                            <div class="boton">
+                                <button type="button" class="btnEnviar" onclick="Correo()">Enviar</button>
+                                
+                                
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="sure"></div>
+            <div class="dark"></div>
+
         </section>
 
 
         <footer class="grid-footer">
-            
+
             <div>
                 <h3>Domicilios</h3>
                 <ul>
                     <li>6044639940</li>
-                    
-                    
+
+
                 </ul>
             </div>
 
             <div>
                 <h3>Categorias</h3>
                 <ul>
-                    <li>Aseo</li>
-                    <li>Frutas</li>
-                    <li>Mecato</li>
-                    <li>Alimento</li>
-                    <li>Carnes</li>
+                    <a href="#categorias">
+                        <li>Aseo</li>
+                    </a>
+                    <a href="#categorias">
+                        <li>Frutas</li>
+                    </a>
+                    <a href="#categorias">
+                        <li>Mecato</li>
+                    </a>
+                    <a href="#categorias">
+                        <li>Alimento</li>
+                    </a>
+                    <a href="#categorias">
+                        <li>Carnes</li>
+                    </a>
+
+
+
+
                 </ul>
 
             </div>
 
-            <div >
+            <div>
                 <h3>Contactanos</h3>
                 <span><a href="mailto:Mercaprado@une.net.co?subject=opinion"><i
-                    class="fas fa-envelope"></i>Mercaprado@une.net.co</a> </span>
-                    <br>
+                            class="fas fa-envelope"></i>Mercaprado@une.net.co</a> </span>
+                <br>
 
-                <span></i>Dirección  cra 80# 39 sur 46 </span>
+                <span></i>Dirección cra 80# 39 sur 46 </span>
 
 
             </div>
@@ -200,7 +225,7 @@
 
         </footer>
 
-        <section class="grid-copy">
+        <section class="grid-copy" id="contacto">
             <div>
                 <h4>Copyright@2021MercaPrado</h4>
             </div>
@@ -209,7 +234,7 @@
                 <h4>Merca Prado</h4>
             </div>
 
-        </section>        
+        </section>
 
     </div>
 
